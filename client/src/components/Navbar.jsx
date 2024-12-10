@@ -55,10 +55,12 @@ const Navbar = () => {
             <Person sx={{ color: variables.darkgrey }} />
           ) : (
             <img
-              src={`http://localhost:3001/${user.profileImagePath?.replace("public", "") || ""}`}
+              src="https://th.bing.com/th?id=OIP.tJYl02NAHsRL3fzirIrpKwHaFe&w=290&h=215&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
               alt="Profile"
               style={{ objectFit: "cover", borderRadius: "50%" }}
             />
+
+
           )}
         </button>
 
